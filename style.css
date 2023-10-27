@@ -32,9 +32,10 @@ h2 {
 }
 
 img {
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 90px;
     padding: 8px;
+    border-radius: 25px;
     border: 2px solid blue;
    
 }
@@ -88,4 +89,5 @@ button {
 combine {
     display: inline-block;
     text-align: center;
+    gap: 5px;
 }

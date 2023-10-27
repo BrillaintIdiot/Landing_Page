@@ -84,3 +84,8 @@ p {
 button {
     color: blue;
 }
+
+combine {
+    display: inline-block;
+    text-align: center;
+}

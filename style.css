@@ -1,6 +1,9 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .header {
@@ -11,6 +14,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex: 1;
 }
 
 h1 {
@@ -31,6 +35,7 @@ img {
     width: 100px;
     height: auto;
     padding: 8px;
+    border: 2px solid blue;
    
 }
 
@@ -41,7 +46,7 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
-    gap: 4px;
+    gap: 8px;
 }
 
 p {
@@ -50,21 +55,30 @@ p {
 }
 
 .main {
-    background-color: #1f2937;
-    color: white;
+    background-color: white;
+    color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    flex: 1;
 }
 
 .title {
     padding: 8px;
     margin: 4px;
+    background-color: black;
+    display: flex;
+    flex: 1;
 }
 
 .last {
     background-color: #e5e7eb;
+    margin-top: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {

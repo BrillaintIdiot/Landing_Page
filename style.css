@@ -27,8 +27,11 @@ h1 {
 
 h1,
 h2 {
-    color: blue;
     font-size: 22px;
+}
+
+h2 {
+    color: whitesmoke;
 }
 
 img {
@@ -42,7 +45,6 @@ img {
 
 ul {
     list-style: none;  
-    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -69,25 +71,33 @@ p {
     padding: 8px;
     margin: 4px;
     background-color: black;
+    color: whitesmoke;
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .last {
     background-color: #e5e7eb;
     margin-top: auto;
     padding: 10px;
+    font-style: italic;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 button {
-    color: blue;
+    color: white;
+    background-color: blue;
 }
 
 combine {
     display: inline-block;
     text-align: center;
     gap: 5px;
+}
+
+a {
+    text-decoration: none;
 }
